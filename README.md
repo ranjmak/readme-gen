@@ -1,94 +1,62 @@
-# readme-gen
-Generates a professional README.md from the answers you give via a CLI using node.js and the npm inquirer
+# Professional README Generator
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+  ## Table of Contents
+  [Description](#description)
 
-# Module 11 Challenge: Professional README Generator
+  [Installation](#installation)
 
-## Your Task
+  [Usage](#usage)
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project. 
+  [Contributions](#contributions)
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+  [Tests](#tests)
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README Guide](../../01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md) as a reminder of everything that a high-quality, professional README should contain. 
+  [Questions](#questions)
 
-The application will be invoked by using the following command:
-
-```bash
-node index.js
-```
-
-## User Story
-
-* As a developer, I want a README generator so that I can quickly create a professional README for a new project
-
-## Acceptance Criteria
-
-* Create a command-line application that accepts user input.
-  * When a user is prompted for information about the application repository then a high-quality, professional README.md is generated with:
-    * The title of my project 
-    * Sections entitled:
-      * Description 
-      * Table of Contents 
-      * Installation 
-      * Usage 
-      * License 
-      * Contributing 
-      * Tests 
-      * Questions
-    * When a user enters the project title then it is displayed as the title of the README
-    * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
-    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-    * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
-    * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
-
-## Getting Started
-
-Here are some guidelines to help you get started:
-
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
-
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
-
-## Grading Requirements
-
-This Challenge is graded based on the following criteria: 
-
-### Deliverables: 20%
-
-* A sample README generated using the application must be submitted.
-
-* Your GitHub repository containing your application code.
-
-### Technical Acceptance Criteria: 55%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-### Repository Quality: 25%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
+  [License](#license)
 
 
-## Review
+  ## Description
+  Creates a command-line application that dynamically generates a professional README.md file from a user's input using the npm inquirer package. Licensing badges are also shown, depending on user input with links to the appropriate licensing pages.
 
-You are required to submit the following for review:
 
-* A walkthrough video demonstrating the functionality of the application.
+  ## Installation
+  Initialise the npm package installer with the following CLI commands: “npm init” then “npm install inquirer@^8.2.5” ensuring the correct version of inquirer. [The short video clip shows you how to set up the node.js project and install inquirer ](https://watch.screencastify.com/v/iojWuaoYtxMlLIcRta2q). Don’t forget to create a .gitignore file containing node_modules and .DS_Store 
 
-* A sample README.md file for a project repository generated using your application
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+  ## Usage
+  Run the app with the following CLI commands: “node index.js”   and answer the questions, the README.md file will be automatically generated, the contents of which will be dependent on your answers. [The short video clip shows you an example of this app’s usage ](https://watch.screencastify.com/v/uy6FW7fcfWC3cOQqyV18)
 
----
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+  ## Contributions
+  If you would like to make a contribution to this project, please get in touch via email with your proposals
+
+
+  ## Tests
+  The tests carried out for this project were to make test readme files and code tweaked to get the desired result once the basic functionality was working.
+
+
+  ## Questions
+  Please feel free to reach out to me with any questions about this project at [ranjit.makwana@gmail.com](mailto:ranjit.makwana@gmail.com). You can also check out my Github profile: [ranjmak](https://github.com/ranjmak).
+
+
+  ---
+
+  ## License
+  This project is licensed under the terms of the [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) license:
+  Unlicensed
+
+2023 Ranj
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE. See the Unlicenced license for more details.
